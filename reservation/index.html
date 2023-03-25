@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav >
+            <a href="">
+                <div class="logo">
+                    <div><img src="h.png"></div>
+                </div>
+            </a>
+            <ul class="menu">
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/home/index.html" class="nav-item" >Home</a></li>
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/reservation/index.html" class="nav-item" >Reservation</a></li>
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/testimonials/index.html" class="nav-item" >Testimonials</a></li>
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/contact/index.html" class="nav-item" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <div id="welcome">Welcome to our room reservation</div>
+            <div class="arrival-bedroom-container">
+                <div class="arrival-departure-container">
+                    <div>
+                        <label for="arrival" >Arrival</label><br>
+                        <input type="date" id="arrival" name="arrival">
+                    </div>
+                    <div>
+                        <label for="departure">Departure</label><br>
+                        <input type="date" id="departure" name="departure">
+                    </div>
+                </div>
+                <div id="hotel-offers">The hotel offers rooms for up to 2 people with a minimum of 1 adult.</div>
+
+                <div class="arrival-departure-container">
+                    <div>
+                        <label for="Bedrooms">Bedrooms)</label><br>
+                        <select id="Bedrooms" name="Bedrooms">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                        </select>
+                    </div>   
+                    <div>
+                        <label for="Adult">Adult (s)</label><br>
+                        <select id="Adult" name="Adult">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                          </select>
+                        
+                    </div>
+                    <div>
+                        <label for="Child">Child(ren)</label><br>
+                        <select id="Child" name="Child">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                          </select>
+                        
+                    </div>          
+            </div>
+        </div>
+            <div class="servives-container">
+                <div class="line "></div>
+                    <div id="name">
+                        <div>Special</div>
+                        <div>rates</div>
+                    </div>
+                <div class="line line2"></div>
+            </div>
+
+            <div class="preferences-container">
+                <div>
+                    <label class="descriptions">Loyalty or subscription card</label>
+                    <div class="Labels">
+                        <label for="digit" class="desc-label">16 digit card number</label><br>
+                        <input type="text" id="digit" name="digit">
+                    </div>
+                </div>
+                <div>
+                    <label class="descriptions">Preferential code</label>
+                    <div >
+                        <input type="text" id="digit" name="digit">
+                    </div>
+                </div>
+                <div>
+                    <label class="descriptions">Business travelers with contract</label>
+                    <div class="Labels">
+                        <label for="digit" class="desc-label">Customer code (SC, AS….) </label><br>
+                        <input type="text" id="digit" name="digit">
+                    </div>
+                </div>
+                <div>
+                    <label class="descriptions">Access code</label>
+                    <div class="Labels">
+                        <label for="digit" class="desc-label">10 characters </label><br>
+                        <input type="text" id="digit" name="digit">
+                    </div>
+                </div>
+                <div><button>See prices</button></div>
+            
+            </div>
+            <div class="important">
+                <strong>IMPORTANT!</strong>
+                <div> * Price from, for one night in accommodation in a standard double room including tax (for 1 or 2 people),excluding additional services, excluding breakfast, excluding tourist tax and taxes additional to the tourist tax.</div>
+                <div>Price of accommodation found on all.accor.com over the past 24 hours, for a stay in this hotel within the next 8 days. Variable depending on hotel, period and availability. Depending on the country of the hotel, these prices may be indicated either excluding taxes, or including VAT only, or all taxes included (VAT and tourist tax included). When the prices are not displayed inclusive of all taxes, the taxes (VAT and / or tourist tax) will be specified in the following steps of the reservation process. The price is only guaranteed at the time of booking. </div>
+            </div>
+        </div>
+    
+        <div class="image-container">
+            <div class="Image-container">
+                <div id="partener">Some of our partner hotels and relatives</div>
+                <div id="info">You can also consult them, for more information on them.</div>
+                <div class="photos-description">
+                    <div>
+                    <div class="Images image1"></div>
+                    <div class="blue-describe">Novotel Cotonou Orisha </div>
+                    <div class="describe">The Novotel Cotonou Orisha is located in Cotonou. It has a swimming pool outdoor pool, restaurant and free Wi-Fi. air-conditioned rooms are equipped with a flat-screen TV as well as a minibar. The private bathrooms are equipped with a bathtub or a shower. The rooms also have a seating area and satellite TV.</div>
+                    </div>
+                    <div>
+                    <div class="Images image2"></div>
+                    <div class="blue-describe">Azalaï Hôtel Cotonou </div>
+                    <div class="describe">Located in Cotonou, 2 km from the UNDP office, the Azalaï Hotel Cotonou has an outdoor swimming pool and offers a view of the sea. free shuttle bus and restaurant. The establishment also offers a reception open 24 hours a day and a currency exchange desk. </div>
+                    </div>
+                    <div>
+                    <div class="Images image3"></div>
+                    <div class="blue-describe">Benin Royal Hôtel</div>
+                    <div class="describe">Located in Cotonou, the Benin Royal Hotel has an indoor swimming pool and a spa with wellness center. You will enjoy a connection Free Wi-Fi.Its air-conditioned rooms are all equipped with satellite television. Their private bathroom is equipped with a bathtub or a shower and a hairdryer. The rooms enjoy a city view. </div>
+                    </div>
+                    <div>
+                    <div class="Images image4"></div>
+                    <div class="blue-describe">Nobila Airport Hotel</div>
+                    <div class="describe">Located in Cotonou, Nobila Airport Hotel offers a restaurant and free Wi-Fi. All accommodations include air conditioning, satellite TV and a minibar. The dining area is equipped with a refrigerator and an electric kettle. The private bathroom has a shower, bath and hairdryer.</div>
+                    </div>
+                    <div>
+                    <div class="Images image5"></div>
+                    <div class="blue-describe">Hotel Maison Rouge Cotonou</div>
+                    <div class="describe">Located in Cotonou, Hotel Maison Rouge Cotonou offers 2 outdoor pools, a restaurant and a connection Free Wi-Fi.The rooms are equipped with a minibar, air conditioning and a private bathroom with shower. The Hotel Maison Rouge Cotonou provides you with a airport shuttle, gardens, terraces, a shared lounge and a meeting room. On-site parking is free.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot_item">copyright@2021 All right reserved</div>
+            <ul class="foot_logo">
+                <li><a href="" class="logos" ><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="" class="logos" ><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="" class="logos" ><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="" class="logos" ><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+    </footer>
+    </body>
+    </html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+    <header>
+        <nav >
+            <a href="">
+                <div class="logo">
+                    <div><img src="h.png"></div>
+                </div>
+            </a>
+            <ul class="menu">
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/home/index.html" class="nav-item" >Home</a></li>
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/reservation/index.html" class="nav-item" >Reservation</a></li>
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/testimonials/index.html" class="nav-item" >Testimonials</a></li>
+                <li><a href="/home/dona/Documents/web_pojects/hotel-restaurant-projet-JS-HTML-CSS/contact/index.html" class="nav-item" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="Container">
+            <div class="container" id="container1">
+
+                <div class="container1">
+                    <div class="red-text-container">Mounzer M.</div>
+                    <div class="white-text-container">
+                        <div class="white-text-container2">Good stay, good services,</div>
+                        <div class="white-text-container1">the environment is very pleasant, greenery, lake, swimming pool, spacious room, good quality of food, staff, pleasant and available</div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="maPhoto.jpeg">
+                </div>
+            </div>
+            <div class="blue-line"></div>
+            <div class="images-container">
+                <a href=""><div class="images" onclick="changerBloc() ;return false;" ><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images" id="image2"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+            </div>
+        </div>
+
+        <div class="Container" style="display: none;">
+            <div class="container" id="con_tainer2" >
+
+                <div class="container1">
+                    <div class="red-text-container">Percide Amen</div>
+                    <div class="white-text-container">
+                        <div class="white-text-container2">An excellent stay</div>
+                        <div class="white-text-container1">Since the reopening in 2019, I had not had the opportunity to return to Cotonou. The hotel has been perfectly renovated and the interior spaces are friendly and tastefully decorated. A large swimming pool that allows you to relax between two meetings. The rooms are a good size with a perfectly adapted and contemporary layout. But a hotel is above all a place of life which is animated by its staff. </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="maPhoto.jpeg">
+                </div>
+            </div>
+            <!--<div class="blue-line"></div>
+            <div class="images-container">
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+            </div>-->
+        </div>
+
+        <!--<div class="Container">
+            <div class="container ">
+
+                <div class="container1">
+                    <div class="red-text-container">Codjo Janvier</div>
+                    <div class="white-text-container">
+                        <div class="white-text-container2">Peaceful stay</div>
+                        <div class="white-text-container1">I had a peaceful wedding night Although I am late for breakfast, a solution has been found for my husband and I. I would have liked the meal to be included </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="maPhoto.jpeg">
+                </div>
+            </div>
+            <div class="blue-line"></div>
+            <div class="images-container">
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+            </div>
+        </div>
+
+
+        <div class="Container">
+            <div class="container " id="con_tainer">
+
+                <div class="container1">
+                    <div class="red-text-container">Moumou Yake.</div>
+                    <div class="white-text-container">
+                        <div class="white-text-container2">Good stay, good services,</div>
+                        <div class="white-text-container1">the environment is very pleasant, greenery, lake, swimming pool, spacious room, good quality of food, staff, pleasant and available</div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="maPhoto.jpeg">
+                </div>
+            </div>
+            <div class="blue-line"></div>
+            <div class="images-container">
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+                <a href=""><div class="images"><img src="maPhoto.jpeg"></div></a>
+            </div>
+        </div>
+    </main>-->
+
+    <footer>
+        <div class="foot_item">copyright@2021 All right reserved</div>
+            <ul class="foot_logo">
+                <li><a href="" class="logos" ><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="" class="logos" ><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="" class="logos" ><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="" class="logos" ><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+    </footer>
+</body>
+</html>
